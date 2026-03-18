@@ -203,8 +203,22 @@ options: ["Blood", "Bone", "Oxygen", "Water"],
 answer: "Water",
 type: "science",
 difficulty: "easy"
-}
+},
 
+{
+question: "The repetition of vowel sound in poetry is",
+options: ["alliteration", "assonance", "onomatopoeia", "pun"],
+answer: "assonance",
+type: "art",
+difficulty: "easy"
+},
+{
+question: "Democracy originated from",
+options: ["Greece", "USA","Britain", "Germany"],
+answer: "Greece",
+type: "history",
+difficulty: "easy"
+}
 ];
 
 export default questions;
