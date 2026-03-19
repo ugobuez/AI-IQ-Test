@@ -15,7 +15,7 @@ function App() {
 
   async function loadQuestions() {
     try {
-      const res = await fetch("http://localhost:7070/api/generate-question");
+      const res = await fetch("https://ai-iq-test.onrender.com/api/generate-question");
 
       const aiQuestions = res.ok ? await res.json() : [];
 
